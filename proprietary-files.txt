@@ -292,9 +292,6 @@ etc/cne/SwimConfig.xml
 etc/cne/andsfCne.xml
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
--framework/cneapiclient.jar
--framework/com.quicinc.cne.jar
--priv-app/CNEService/CNEService.apk
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneqmiutils.so
@@ -319,8 +316,6 @@ etc/dpm/dpm.conf
 etc/dpm/nsrm/NsrmConfiguration.xml
 etc/permissions/com.qti.dpmframework.xml
 etc/permissions/dpmapi.xml
--framework/com.qti.dpmframework.jar
--framework/dpmapi.jar
 vendor/lib/libdpmctmgr.so
 vendor/lib/libdpmfdmgr.so
 vendor/lib/libdpmframework.so
@@ -355,9 +350,6 @@ etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.vzw_library.xml
 etc/permissions/com.qualcomm.location.xml
 etc/permissions/izat.xt.srv.xml
--framework/com.qti.location.sdk.jar
--framework/com.qualcomm.location.vzw_library.jar
--framework/izat.xt.srv.jar
 lib/hw/gps.default.so:lib/hw/gps.msm8992.so
 lib/libgps.utils.so
 lib/libloc_api_v02.so
@@ -370,7 +362,6 @@ lib64/libloc_api_v02.so
 lib64/libloc_core.so
 lib64/libloc_ds_api.so
 lib64/libloc_eng.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
 vendor/bin/slim_daemon
 vendor/lib/hw/flp.default.so
 vendor/lib/libasn1cper.so
@@ -467,8 +458,6 @@ bin/ims_rtp_daemon
 bin/imscmservice
 bin/imsdatadaemon
 bin/imsqmidaemon
--vendor/app/ims/ims.apk
--vendor/app/imssettings/imssettings.apk
 vendor/lib/lib-dplmedia.so
 vendor/lib/lib-ims-rcscmjni.so
 vendor/lib/lib-imsSDP.so
@@ -627,10 +616,6 @@ vendor/lib64/libsmemlog.so
 vendor/lib64/libxml.so
 
 # Radio
--app/QtiTelephonyService/QtiTelephonyService.apk
--app/datastatusnotification/datastatusnotification.apk
--app/fastdormancy/fastdormancy.apk
--app/shutdownlistener/shutdownlistener.apk
 bin/diag_mdlog
 bin/ipacm-diag
 bin/irsc_util
@@ -648,11 +633,6 @@ etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/qti_telephony_common.xml
 etc/wifibt_diag.cfg
--framework/QtiTelephonyServicelibrary.jar
--framework/qcnvitems.jar
--framework/qcrilhook.jar
--framework/qti-telephony-common.jar|88212913c0c44893e05e7003ec2f3e0a432a356d
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/qti
 vendor/lib/libconfigdb.so
 vendor/lib/liblqe.so
@@ -715,7 +695,6 @@ vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
 # Time services
--app/TimeService/TimeService.apk
 bin/time_daemon
 vendor/lib/libTimeService.so
 -vendor/lib/libtime_genoff.so
